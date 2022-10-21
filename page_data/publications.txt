@@ -1,0 +1,123 @@
+# Format:
+# ------------
+# title 
+# authors
+# venue
+# url (optional)
+
+[Technical Language Processing]
+
+Adapting natural language processing for technical text. 
+Dima, A., Lukens, S., Hodkiewicz, M., Sexton, T., & Brundage, M. P. 
+Applied AI Letters, 2(3), e33 (2021).
+https://onlinelibrary.wiley.com/doi/pdf/10.1002/ail2.33
+
+Technical language processing: Unlocking maintenance knowledge
+M.Brundage, T.Sexton, M.Hodkiewicz, A.Dima, S.Lukens
+Manufacturing Letters, Volume 27, January 2021.
+https://www.sciencedirect.com/science/article/pii/S2213846320301668
+
+Template Libraries for Industrial Asset Maintenance: A Methodology for Scalable and Maintainable Ontologies
+D.P.Lupp, M.Hodkiewicz, M.G.Skjæveland
+InCEUR Workshop Proceedings 2020 (Vol. 2757, pp. 49-64).
+http://www.ssws-ws.org/SSWS2020/SSWS2020_paper4.pdf
+
+Pipeline for machine reading of unstructured maintenance work order records
+Y.Gao, C.Woods, W.Liu, T.French, M.Hodkiewicz
+30th European Safety and Reliability Conference (ESREL), Venice, Italy, Nov 1-6 2020
+
+Benchmarking for keyword extraction methodologies in maintenance work orders
+Sexton, T., Hodkiewicz, M., Brundage, M.P. and Smoker, T.
+US PHM Society Annual Conference, 24-28 September 2018, Philadelphia.
+
+Categorization Errors for Data Entry in Maintenance Work-Orders
+M.Brundage, T.Sexton & M.Hodkiewicz
+Annual meeting of Prognostics Health Management Society (PHM), Arizona, Sept 21-26, 2019
+
+Applying cognitive computing to maintainer-collected data
+Smoker, T., French, T., Liu, W., and Hodkiewicz, M.
+ICSRS 2nd International Conference on System Reliability and Safety, December 20-22, 2017 Milan, Italy.
+https://ieeexplore.ieee.org/abstract/document/8272880/
+
+Digitalization and reasoning over maintenance data stored in tables
+Melinda Hodkiewicz, Johan W. Kl&uuml;wer, Caitlin Woods, Thomas Smoker, Wei Liu, Tim French
+Accepted to Maintenance in the Digital Era- 4th IFAC Workshop on Advanced Maintenance Engineering, Services and Technologies, AMEST 2020, 10-11 September 2020, Cambridge University.
+
+[Knowledge Graphs]
+
+Seq2KG: An End-to-End Neural Model for Domain Agnostic Knowledge Graph (not Text Graph) Construction from Text.
+M Stewart, W Liu
+Proceedings of the International Conference on Principles of Knowledge Representation and Reasoning
+https://proceedings.kr.org/2020/77/kr2020-0077-stewart-et-al.pdf
+
+[Natural Language Processing]
+
+ICDM 2019 Knowledge Graph Contest: Team UWA
+M Stewart, M Enkhsaikhan, W Liu
+Proceedings of the 2019 IEEE International Conference on Data Mining (ICDM)
+https://ieeexplore.ieee.org/abstract/document/8970692/
+
+Word-level Lexical Normalisation using Context-Dependent Embeddings
+M Stewart, W Liu, R Cardell-Oliver
+arXiv preprint arXiv:1911.06172
+https://arxiv.org/abs/1911.06172
+
+Short-Text Lexical Normalisation on Industrial Log Data
+M Stewart, W Liu, R Cardell-Oliver, R Wang
+2018 IEEE International Conference on Big Knowledge (ICBK), 113-122
+https://ieeexplore.ieee.org/abstract/document/8588782/
+
+[Annotation]
+
+Agreement Behavior of Isolated Annotators for Maintenance Work-Order Data Mining
+E.Hastings, T.Sexton, M.Brundage & M.Hodkiewicz
+Annual meeting of Prognostics Health Management Society (PHM), Arizona, Sept 21-26, 2019
+
+[Tools]
+
+LexiClean: An annotation tool for rapid multi-task lexical normalisation
+T Bikaun, T French, M Hodkiewicz, M Stewart, W Liu
+Proceedings of the 2021 Conference on Empirical Methods in Natural Language Processing: System Demonstrations
+https://aclanthology.org/2021.emnlp-demo.25/
+
+Redcoat: A Collaborative Annotation Tool for Hierarchical Entity Typing
+M Stewart, W Liu, R Cardell-Oliver
+Proceedings of the 2019 Conference on Empirical Methods in Natural Language Processing
+https://www.aclweb.org/anthology/D19-3033/
+
+An interactive web-based toolset for knowledge discovery from short text log data
+M Stewart, W Liu, R Cardell-Oliver, M Griffin
+International Conference on Advanced Data Mining and Applications, 853-858
+https://link.springer.com/chapter/10.1007/978-3-319-69179-4_61
+
+[Ontologies]
+
+On the Notion of Maintenance State for Industrial Assets
+Woods, C., Selway, M., Hodkiewicz, M., Ameri, F., Stumptner, M. and Sobel, W.
+OMI 2021: 11th International Workshop on Formal Ontologies meet Industry, held at JOWO 2021: Episode VII The Bolzano Summer of Knowledge, September 11–18, 2021, Bolzano, Italy.
+http://ceur-ws.org/Vol-2969/paper22-FOMI.pdf
+
+An ontology for reasoning over engineering textual data stored in FMEA spreadsheet tables
+Hodkiewicz, M., Klüwer, J.W., Woods, C., Smoker, T. and Low, E.
+2021 Computers in Industry, 131.
+
+Towards a Reference Ontology for Maintenance Work Management
+Hodkiewicz, M., Low, E., Woods, C. and Ameri, F
+Proceedings of the Workshops of I-ESA 2020, 17-11-20, Tarbes, France.
+http://ceur-ws.org/Vol-2900/WS5Paper2.pdf
+
+Towards a Reference Ontology for Maintenance Work Management
+Melinda Hodkiewicz, Caitlin Woods, Emily Low, and Farhad Ameri
+Accepted for 10th International conference on interoperability for enterprise systms and applications. Rescheduled for Nov 17-20, Tarbes, France
+
+Template libraries for industrial asset maintenance: A methodology for scalable and maintainable ontologies.
+Lupp, D.P., Hodkiewicz, M. and Skjæveland, M.G., 2020.
+In CEUR Workshop Proceedings (Vol. 2757, pp. 49-64). Technical University of Aachen.
+
+ROMAIN: Towards a BFO compliant Reference Ontology for Industrial Maintenance
+Karray, M.H., Ameri, F., Hodkiewicz, M. and Louge
+T. Applied Ontology.
+
+Practical and Scalable Pattern-based Ontology Engineering for Industry with Reasonable Ontology Templates (OTTR)
+M.G. Skjaeveland, J.W. Kluwer, Melinda Hodkiewicz, L.H. Karlsen, D.P. Lupp
+Tutorial ISWC 2019, Auckland, NZ.
