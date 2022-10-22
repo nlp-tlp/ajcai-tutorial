@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import * as d3 from "d3";
 
+// import ajcai_logo from "../images/ajcai-logo.png";
 import ForceGraph2D from "react-force-graph-2d";
 
 //stackoverflow.com/questions/9071573/is-there-a-simple-way-to-make-a-random-selection-from-an-array-in-javascript-or
@@ -25,12 +26,20 @@ function genRandomTree(N = 220) {
   let links = [];
   for (let id = 0; id < nodes.length; id++) {
     if (id === 0) continue;
+
+    let linkedIds = new Set();
     for (let x = 0; x < 1 + Math.round(Math.random() * 12); x++) {
       let r = Math.random() * 1;
       if (r < 0.6) break;
+
+      const linkedId = Math.round(Math.random() * (id - 1));
+
+      if (linkedIds.has(linkedId)) continue;
+      linkedIds.add(linkedId);
+
       links.push({
         source: id,
-        target: Math.round(Math.random() * (id - 1)),
+        target: linkedId,
       });
     }
   }
@@ -82,7 +91,7 @@ class HeroGraph extends Component {
             this.isCentered = true;
           }
         }}
-        linkDirectionalArrowLength={8}
+        linkDirectionalArrowLength={10}
         linkDirectionalArrowRelPos={1}
         nodeColor={(d) => {
           return d.color;
@@ -90,7 +99,7 @@ class HeroGraph extends Component {
         linkColor={() => {
           return "rgba(50, 50, 50, 0.25)";
         }}
-        linkWidth={2}
+        linkWidth={1}
         enableZoomPanInteraction={false}
         d3AlphaDecay={0.015}
         nodeCanvasObject={(node, ctx, globalScale) => {
@@ -117,10 +126,7 @@ class Hero extends Component {
   render() {
     //console.log(homePage);
     return (
-      <div
-        id="hero"
-        className={"flex-container box-shadow-inset-light flex-align-end "}
-      >
+      <div id="hero" className={"flex-container  flex-align-end "}>
         <div className="hero-background "></div>
         <div className="container flex-container flex-align-center ">
           <div className="hero-text">
@@ -131,12 +137,27 @@ class Hero extends Component {
               <span className="highlight">Technical Short Text</span>
             </h2>
 
-            <h3>Tutorial at AJCAI 2022</h3>
-            <h4>
-              Monday 5 December 2022, 9am - 12pm AWST
-              <br />
-              Hyatt Regency Perth, WA, Australia
-            </h4>
+            <div className="ajcai-bit">
+              {/*<div className="flex-item">
+                <div class="logo">
+                  <a
+                    href="https://ajcai2022.org/"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    <img src={ajcai_logo} alt="AJCAI Logo" />
+                  </a>
+                </div>
+              </div>*/}
+              <div className="flex-item">
+                <h3>Tutorial at AJCAI 2022</h3>
+                <h4>
+                  Monday 5 December 2022, 9am - 12pm AWST
+                  <br />
+                  Hyatt Regency Perth, Perth, WA, Australia
+                </h4>
+              </div>
+            </div>
           </div>
         </div>
         <HeroGraph />
