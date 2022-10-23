@@ -527,7 +527,8 @@ main#main {
 }
 
 section {
-  margin-bottom: 4em;
+  padding-bottom: 2em;
+  margin-bottom: 2em;
   > h3 {
     padding-bottom: 4px;
     border-bottom: 1px solid rgba($primary-color, 0.2);
@@ -543,6 +544,12 @@ section {
   }
   h2 {
     margin-bottom: 1em;
+  }
+  &:not(:first-child) {
+    margin-top: 3em;
+  }
+  &:not(:last-child) {
+    border-bottom: 1px solid #dadada;
   }
 }
 
