@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/ajaci-tutorial/static/css/main.4c630bf5.chunk.css",
+    "main.js": "/ajaci-tutorial/static/js/main.1bda3003.chunk.js",
+    "main.js.map": "/ajaci-tutorial/static/js/main.1bda3003.chunk.js.map",
+    "runtime-main.js": "/ajaci-tutorial/static/js/runtime-main.e5cfec9e.js",
+    "runtime-main.js.map": "/ajaci-tutorial/static/js/runtime-main.e5cfec9e.js.map",
+    "static/js/2.5bebc5b1.chunk.js": "/ajaci-tutorial/static/js/2.5bebc5b1.chunk.js",
+    "static/js/2.5bebc5b1.chunk.js.map": "/ajaci-tutorial/static/js/2.5bebc5b1.chunk.js.map",
+    "static/js/3.f9b9ac98.chunk.js": "/ajaci-tutorial/static/js/3.f9b9ac98.chunk.js",
+    "static/js/3.f9b9ac98.chunk.js.map": "/ajaci-tutorial/static/js/3.f9b9ac98.chunk.js.map",
+    "index.html": "/ajaci-tutorial/index.html",
+    "static/css/main.4c630bf5.chunk.css.map": "/ajaci-tutorial/static/css/main.4c630bf5.chunk.css.map",
+    "static/js/2.5bebc5b1.chunk.js.LICENSE.txt": "/ajaci-tutorial/static/js/2.5bebc5b1.chunk.js.LICENSE.txt",
+    "static/media/center-logo.319a07e4.png": "/ajaci-tutorial/static/media/center-logo.319a07e4.png",
+    "static/media/App.scss": "/ajaci-tutorial/static/media/fontawesome-webfont.f691f37e.woff",
+    "static/media/michael-stewart.8986114a.jpg": "/ajaci-tutorial/static/media/michael-stewart.8986114a.jpg",
+    "static/media/nlp-tlp-logo.070802fa.png": "/ajaci-tutorial/static/media/nlp-tlp-logo.070802fa.png",
+    "static/media/uwacrest-blue.de0d0ed2.png": "/ajaci-tutorial/static/media/uwacrest-blue.de0d0ed2.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.e5cfec9e.js",
+    "static/js/2.5bebc5b1.chunk.js",
+    "static/css/main.4c630bf5.chunk.css",
+    "static/js/main.1bda3003.chunk.js"
+  ]
+}
