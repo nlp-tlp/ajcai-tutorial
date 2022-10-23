@@ -4,15 +4,10 @@ import uwa_logo from "./images/uwacrest-blue.png";
 
 import centre_logo from "./images/center-logo.png";
 import nlp_tlp_logo from "./images/nlp-tlp-logo.png";
-import nlp_tlp_logo_white from "./images/nlp-tlp-logo-white.png";
 import "./App.scss";
 
 import HomePage from "./pages/home";
-import HomepageLogosSection from "./pages/subpages/homepageLogosSection";
-import Sidenav from "./components/sidenav";
 import Hero from "./components/hero";
-
-import ScrollToTop from "./components/scrollToTop";
 
 class Header extends Component {
   render() {
@@ -45,7 +40,7 @@ class Header extends Component {
                   <img src={centre_logo} alt="NLP-TLP Logo" />
                 </div>
               </a>
-              <a href="https://uwa.edu.au" target="_blank">
+              <a href="https://uwa.edu.au" target="_blank" rel="noreferrer">
                 <div class="logo">
                   <img src={uwa_logo} className="App-logo" alt="UWA logo" />
                 </div>

@@ -1,7 +1,7 @@
 {
   "name": "ajcai-tutorial",
   "version": "0.1.0",
-  "homepage": ".",
+  "homepage": "https://nlp-tlp.github.io/ajaci-tutorial",
   "private": true,
   "dependencies": {
     "@octokit/core": "^3.5.1",
@@ -10,18 +10,13 @@
     "@testing-library/user-event": "^12.6.3",
     "d3": "^7.6.1",
     "d3-quadtree": "^1.0.7",
-    "concurrently": "^6.0.0",
     "font-awesome": "^4.7.0",
-    "html-react-parser": "^1.2.4",
     "node-sass": "^4.14.1",
-    "npm-watch": "^0.7.0",
     "react": "^17.0.1",
     "react-dom": "^17.0.1",
     "react-force-graph-2d": "^1.19.0",
-    "react-router-dom": "^5.2.0",
     "react-scripts": "4.0.1",
     "react-transition-group": "^4.4.1",
-    "react-youtube": "^7.13.1",
     "web-vitals": "^0.2.4"
   },
   "scripts": {
@@ -29,7 +24,9 @@
     "start-production": "\"react-scripts start\"",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": [
@@ -48,5 +45,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "gh-pages": "^4.0.0"
   }
 }

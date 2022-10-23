@@ -71,16 +71,28 @@ class HomePage extends Component {
 							<b>What is a knowledge graph and why are they useful?</b> (55
 							mins)
 							<ul>
-								<li>Introduction (15 mins)</li>
-								<li>Questions (10 mins)</li>
+								<li>Introduction to graph databases (15 mins)</li>
+								<li>Property graphs (10 mins)</li>
+								<li>
+									Advantages of graphs over relational databases (15 mins)
+								</li>
+								<li>From graph databases to knowledge graphs (10 mins)</li>
+								<li>Questions (5 mins)</li>
 							</ul>
 						</li>
 						<li>Break (5 mins)</li>
 						<li>
 							<b>Building knowledge graphs from unstructured text</b> (55 mins)
 							<ul>
-								<li>Introduction (15 mins)</li>
-								<li>Questions (10 mins)</li>
+								<li>Introduction to information extraction (15 mins)</li>
+								<li>
+									Extracting entities via named entity recognition (25 mins)
+								</li>
+								<li>
+									Building relationships via relation extraction (10 mins)
+								</li>
+
+								<li>Questions (5 mins)</li>
 							</ul>
 						</li>
 						<li>Break (5 mins)</li>
@@ -91,8 +103,8 @@ class HomePage extends Component {
 							</b>{" "}
 							(60 mins)
 							<ul>
-								<li>Introduction (15 mins)</li>
-								<li>Questions (10 mins)</li>
+								<li>Introduction to code and dataset (10 mins)</li>
+								<li>Code notebook walkthrough (50 mins)</li>
 							</ul>
 						</li>
 					</ol>
@@ -151,8 +163,9 @@ class HomePage extends Component {
 						<div className="flex-item">
 							<p>
 								Dr. Michael Stewart received his PhD from the University of
-								Western Australia in 2020. He is a postdoctoral research fellow
-								at The University of Western Australia supported by the{" "}
+								Western Australia in 2020. He currently works as a postdoctoral
+								research fellow at The University of Western Australia supported
+								by the{" "}
 								<a
 									href="https://maintenance.org.au"
 									target="_blank"
