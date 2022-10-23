@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/ajcai-tutorial/static/css/main.3a2a8abe.chunk.css",
-    "main.js": "/ajcai-tutorial/static/js/main.7fc92b4b.chunk.js",
-    "main.js.map": "/ajcai-tutorial/static/js/main.7fc92b4b.chunk.js.map",
+    "main.js": "/ajcai-tutorial/static/js/main.10dcd983.chunk.js",
+    "main.js.map": "/ajcai-tutorial/static/js/main.10dcd983.chunk.js.map",
     "runtime-main.js": "/ajcai-tutorial/static/js/runtime-main.503f5c2c.js",
     "runtime-main.js.map": "/ajcai-tutorial/static/js/runtime-main.503f5c2c.js.map",
     "static/js/2.5bebc5b1.chunk.js": "/ajcai-tutorial/static/js/2.5bebc5b1.chunk.js",
@@ -22,6 +22,6 @@
     "static/js/runtime-main.503f5c2c.js",
     "static/js/2.5bebc5b1.chunk.js",
     "static/css/main.3a2a8abe.chunk.css",
-    "static/js/main.7fc92b4b.chunk.js"
+    "static/js/main.10dcd983.chunk.js"
   ]
 }
