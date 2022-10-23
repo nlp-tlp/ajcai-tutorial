@@ -68,25 +68,26 @@ class HomePage extends Component {
 
 					<ol className="tutorial-outline">
 						<li>
-							<b>What is a knowledge graph and why are they useful?</b> (55
+							<b>What is a knowledge graph and why are they useful?</b> (50
 							mins)
 							<ul>
 								<li>Introduction to graph databases (15 mins)</li>
 								<li>Property graphs (10 mins)</li>
 								<li>
-									Advantages of graphs over relational databases (15 mins)
+									Advantages of graph databases over relational databases (10
+									mins)
 								</li>
 								<li>From graph databases to knowledge graphs (10 mins)</li>
 								<li>Questions (5 mins)</li>
 							</ul>
 						</li>
-						<li>Break (5 mins)</li>
+						<li>Break (10 mins)</li>
 						<li>
-							<b>Building knowledge graphs from unstructured text</b> (55 mins)
+							<b>Building knowledge graphs from unstructured text</b> (50 mins)
 							<ul>
 								<li>Introduction to information extraction (15 mins)</li>
 								<li>
-									Extracting entities via named entity recognition (25 mins)
+									Extracting entities via named entity recognition (20 mins)
 								</li>
 								<li>
 									Building relationships via relation extraction (10 mins)
@@ -95,7 +96,7 @@ class HomePage extends Component {
 								<li>Questions (5 mins)</li>
 							</ul>
 						</li>
-						<li>Break (5 mins)</li>
+						<li>Break (10 mins)</li>
 						<li>
 							<b>
 								Code walkthrough: Building a knowledge graph from maintenance
