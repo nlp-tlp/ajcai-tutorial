@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/ajcai-tutorial/static/css/main.0a6b44bf.chunk.css",
+    "main.css": "/ajcai-tutorial/static/css/main.c83f01e5.chunk.css",
     "main.js": "/ajcai-tutorial/static/js/main.a7cbfc29.chunk.js",
     "main.js.map": "/ajcai-tutorial/static/js/main.a7cbfc29.chunk.js.map",
     "runtime-main.js": "/ajcai-tutorial/static/js/runtime-main.503f5c2c.js",
@@ -10,7 +10,7 @@
     "static/js/3.f9b9ac98.chunk.js": "/ajcai-tutorial/static/js/3.f9b9ac98.chunk.js",
     "static/js/3.f9b9ac98.chunk.js.map": "/ajcai-tutorial/static/js/3.f9b9ac98.chunk.js.map",
     "index.html": "/ajcai-tutorial/index.html",
-    "static/css/main.0a6b44bf.chunk.css.map": "/ajcai-tutorial/static/css/main.0a6b44bf.chunk.css.map",
+    "static/css/main.c83f01e5.chunk.css.map": "/ajcai-tutorial/static/css/main.c83f01e5.chunk.css.map",
     "static/js/2.5bebc5b1.chunk.js.LICENSE.txt": "/ajcai-tutorial/static/js/2.5bebc5b1.chunk.js.LICENSE.txt",
     "static/media/center-logo.319a07e4.png": "/ajcai-tutorial/static/media/center-logo.319a07e4.png",
     "static/media/App.scss": "/ajcai-tutorial/static/media/fontawesome-webfont.f691f37e.woff",
@@ -22,7 +22,7 @@
   "entrypoints": [
     "static/js/runtime-main.503f5c2c.js",
     "static/js/2.5bebc5b1.chunk.js",
-    "static/css/main.0a6b44bf.chunk.css",
+    "static/css/main.c83f01e5.chunk.css",
     "static/js/main.a7cbfc29.chunk.js"
   ]
 }
