@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/ajcai-tutorial/static/css/main.0a6b44bf.chunk.css",
-    "main.js": "/ajcai-tutorial/static/js/main.10dcd983.chunk.js",
-    "main.js.map": "/ajcai-tutorial/static/js/main.10dcd983.chunk.js.map",
+    "main.js": "/ajcai-tutorial/static/js/main.a7cbfc29.chunk.js",
+    "main.js.map": "/ajcai-tutorial/static/js/main.a7cbfc29.chunk.js.map",
     "runtime-main.js": "/ajcai-tutorial/static/js/runtime-main.503f5c2c.js",
     "runtime-main.js.map": "/ajcai-tutorial/static/js/runtime-main.503f5c2c.js.map",
     "static/js/2.5bebc5b1.chunk.js": "/ajcai-tutorial/static/js/2.5bebc5b1.chunk.js",
@@ -16,12 +16,13 @@
     "static/media/App.scss": "/ajcai-tutorial/static/media/fontawesome-webfont.f691f37e.woff",
     "static/media/michael-stewart.8986114a.jpg": "/ajcai-tutorial/static/media/michael-stewart.8986114a.jpg",
     "static/media/nlp-tlp-logo.070802fa.png": "/ajcai-tutorial/static/media/nlp-tlp-logo.070802fa.png",
+    "static/media/tyler-bikaun.0649a2b4.jpg": "/ajcai-tutorial/static/media/tyler-bikaun.0649a2b4.jpg",
     "static/media/uwacrest-blue.de0d0ed2.png": "/ajcai-tutorial/static/media/uwacrest-blue.de0d0ed2.png"
   },
   "entrypoints": [
     "static/js/runtime-main.503f5c2c.js",
     "static/js/2.5bebc5b1.chunk.js",
     "static/css/main.0a6b44bf.chunk.css",
-    "static/js/main.10dcd983.chunk.js"
+    "static/js/main.a7cbfc29.chunk.js"
   ]
 }
