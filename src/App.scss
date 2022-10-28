@@ -263,6 +263,19 @@ header {
       }
     }
   }
+  @media (max-width: 1366px) {
+    font-size: 0.7em;
+  }
+  @media (max-width: 1280px) {
+    position: static;
+    height: auto;
+    ul.header-nav {
+      display: block;
+      li:not(:last-child):after {
+        display: none;
+      }
+    }
+  }
 }
 
 footer {
