@@ -23,7 +23,10 @@ class Header extends Component {
                 <a href="#outline">Tutorial Outline</a>
               </li>
               <li>
-                <a href="#speaker">Speaker</a>
+                <a href="#speakers">Speakers</a>
+              </li>
+              <li>
+                <a href="#what-to-bring">What to Bring</a>
               </li>
               <li>
                 <a href="#materials">Materials</a>

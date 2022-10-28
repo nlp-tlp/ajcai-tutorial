@@ -2,6 +2,7 @@ import React, { Component } from "react";
 
 import nlp_tlp_logo from "../images/nlp-tlp-logo.png";
 import me from "../images/michael-stewart.jpg";
+import tyler from "../images/tyler-bikaun.jpg";
 import centre_logo from "../images/center-logo.png";
 
 class HomePage extends Component {
@@ -68,7 +69,7 @@ class HomePage extends Component {
 
 					<ol className="tutorial-outline">
 						<li>
-							<b>What is a knowledge graph and why are they useful?</b> (50
+							<b>What is a knowledge graph and why are they useful?</b> (60
 							mins)
 							<ul>
 								<li>Introduction to graph databases (15 mins)</li>
@@ -79,11 +80,12 @@ class HomePage extends Component {
 								</li>
 								<li>From graph databases to knowledge graphs (10 mins)</li>
 								<li>Questions (5 mins)</li>
+								<li>Break (10 mins)</li>
 							</ul>
 						</li>
-						<li>Break (10 mins)</li>
+
 						<li>
-							<b>Building knowledge graphs from unstructured text</b> (50 mins)
+							<b>Building knowledge graphs from unstructured text</b> (60 mins)
 							<ul>
 								<li>Introduction to information extraction (15 mins)</li>
 								<li>
@@ -94,9 +96,10 @@ class HomePage extends Component {
 								</li>
 
 								<li>Questions (5 mins)</li>
+								<li>Break (10 mins)</li>
 							</ul>
 						</li>
-						<li>Break (10 mins)</li>
+
 						<li>
 							<b>
 								Code walkthrough: Building a knowledge graph from maintenance
@@ -130,8 +133,34 @@ class HomePage extends Component {
 					</table>*/}
 				</section>
 
-				<section id="speaker">
-					<h2>Speaker</h2>
+				<section id="what-to-bring">
+					<h2>What to bring</h2>
+					<p>
+						Please bring your own laptop to the tutorial. For the code
+						walkthrough, please ensure Python 3.7+ is installed on your laptop,
+						as well as Jupyter Notebook. We will be providing this notebook
+						closer to the tutorial so you can install all of the required
+						packages prior to the tutorial.
+					</p>
+					<p>
+						For the latter half of the code walkthrough you will need{" "}
+						<a href="https://neo4j.com/" target="_blank" rel="noreferrer">
+							Neo4j Desktop
+						</a>{" "}
+						installed to follow along. You may alternatively opt to use{" "}
+						<a
+							href="https://neo4j.com/cloud/platform/aura-graph-database/"
+							target="_blank"
+							rel="noreferrer"
+						>
+							Neo4j Aura
+						</a>
+						, a free Cloud-based Neo4j environment.
+					</p>
+				</section>
+
+				<section id="speakers">
+					<h2>Speakers</h2>
 
 					<div className="flex-container flex-align-center profile">
 						<div className="flex-item">
@@ -192,6 +221,64 @@ class HomePage extends Component {
 									UWA Natural and Technical Language Processing Group
 								</a>
 								.
+							</p>
+						</div>
+					</div>
+
+					<div className="flex-container flex-align-center profile">
+						<div className="flex-item">
+							<img src={tyler} alt="Tyler Bikaun" className="profile-photo" />
+							<div className="profile-details">
+								<h3>Tyler Bikaun</h3>
+								<h4>PhD Student, UWA</h4>
+								<ul className="profile-links">
+									<li>
+										<a
+											href="https://www.linkedin.com/in/tyler-bikaun/"
+											target="_blank"
+											rel="noreferrer"
+										>
+											LinkedIn
+										</a>
+									</li>
+									<li>
+										<a
+											href="https://scholar.google.com/citations?user=jZpJEnEAAAAJ&hl=en"
+											target="_blank"
+											rel="noreferrer"
+										>
+											Google Scholar
+										</a>
+									</li>
+								</ul>
+							</div>
+						</div>
+						<div className="flex-item">
+							<p>
+								Tyler Bikaun is a PhD candidate at the University of Western
+								Australia supported by the{" "}
+								<a
+									href="https://maintenance.org.au"
+									target="_blank"
+									rel="noreferrer"
+								>
+									Centre for Transforming Maintenance through Data Science
+								</a>{" "}
+								and{" "}
+								<a
+									href="https://www.mriwa.wa.gov.au/"
+									target="_blank"
+									rel="noreferrer"
+								>
+									Mineral Research Institute of Western Australia
+								</a>
+								. His research concentrates on knowledge graph construction from
+								noisy technical texts, data curation in low-resource domains,
+								and generative knowledge extraction and normalisation using deep
+								learning techniques. Tyler's work has been published in venues
+								such as Empirical Methods in Natural Language Processing,
+								Association for Computational Linguistics, and the Prognostic
+								Health Management Society European Conference.
 							</p>
 						</div>
 					</div>
