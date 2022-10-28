@@ -134,7 +134,7 @@ class HomePage extends Component {
 				</section>
 
 				<section id="what-to-bring">
-					<h2>What to bring</h2>
+					<h2>What to Bring</h2>
 					<p>
 						Please bring your own laptop to the tutorial. For the code
 						walkthrough, please ensure Python 3.7+ is installed on your laptop,
