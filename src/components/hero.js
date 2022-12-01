@@ -154,7 +154,7 @@ class Hero extends Component {
                 <h4>
                   Monday 5 December 2022, 9am - 12pm AWST
                   <br />
-                  Hyatt Regency Perth, Perth, WA, Australia
+                  Freshwater Bay Room, Hyatt Regency Perth, Perth, WA, Australia
                 </h4>
               </div>
             </div>

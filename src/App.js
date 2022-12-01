@@ -20,10 +20,10 @@ class Header extends Component {
                 <a href="#abstract">Abstract </a>
               </li>
               <li>
-                <a href="#outline">Tutorial Outline</a>
+                <a href="#outline">Outline</a>
               </li>
               <li>
-                <a href="#speakers">Speakers</a>
+                <a href="#venue">Venue</a>
               </li>
               <li>
                 <a href="#what-to-bring">What to Bring</a>
@@ -32,7 +32,7 @@ class Header extends Component {
                 <a href="#materials">Materials</a>
               </li>
               <li>
-                <a href="#acknowledgment">Acknowledgment</a>
+                <a href="#speakers">Speaker</a>
               </li>
             </ul>
           </div>

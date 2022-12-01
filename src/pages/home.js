@@ -22,6 +22,7 @@ class HomePage extends Component {
 					graph? Why are leading companies actively building knowledge graphs,
 					and how is one created?
 				</p>*/}
+
 				<section id="abstract">
 					<h2>Abstract</h2>
 					<p>
@@ -44,13 +45,12 @@ class HomePage extends Component {
 						as relational tables. We will then detail the underlying natural
 						language processing techniques involved in knowledge graph
 						construction from text, namely named entity recognition (NER) and
-						relation extraction (RE). In the second half of the tutorial, we
-						will motivate the need for knowledge graphs via a simple, practical
-						example in the maintenance domain. This Python notebook-based
-						example will demonstrate how noisy, unstructured text such as
-						maintenance work orders can be transformed into a knowledge graph to
-						visualise and query unstructured data and allow domain experts to
-						make informed business decisions.
+						relation extraction (RE). We will motivate the need for knowledge
+						graphs via a simple, practical example in the maintenance domain.
+						This Python notebook-based example will demonstrate how noisy,
+						unstructured text such as maintenance work orders can be transformed
+						into a knowledge graph to visualise and query unstructured data and
+						allow domain experts to make informed business decisions.
 					</p>
 					{/*<p>
 						<ul className="chevron-bullets extra-indent">
@@ -69,46 +69,58 @@ class HomePage extends Component {
 
 					<ol className="tutorial-outline">
 						<li>
-							<b>What is a knowledge graph and why are they useful?</b> (60
-							mins)
-							<ul>
-								<li>Introduction to graph databases (15 mins)</li>
-								<li>Property graphs (10 mins)</li>
-								<li>
-									Advantages of graph databases over relational databases (10
-									mins)
-								</li>
-								<li>From graph databases to knowledge graphs (10 mins)</li>
-								<li>Questions (5 mins)</li>
-								<li>Break (10 mins)</li>
-							</ul>
-						</li>
-
-						<li>
-							<b>Building knowledge graphs from unstructured text</b> (60 mins)
-							<ul>
-								<li>Introduction to information extraction (15 mins)</li>
-								<li>
-									Extracting entities via named entity recognition (20 mins)
-								</li>
-								<li>
-									Building relationships via relation extraction (10 mins)
-								</li>
-
-								<li>Questions (5 mins)</li>
-								<li>Break (10 mins)</li>
-							</ul>
-						</li>
-
-						<li>
 							<b>
-								Code walkthrough: Building a knowledge graph from maintenance
-								work orders
+								Introduction to Knowledge Graphs and Natural & Technical
+								Language Processing
 							</b>{" "}
 							(60 mins)
 							<ul>
-								<li>Introduction to code and dataset (10 mins)</li>
-								<li>Code notebook walkthrough (50 mins)</li>
+								<li>
+									Introduction to graph databases and knowledge graphs (10 mins)
+								</li>
+								<li>What makes knowledge graphs so useful? (5 mins)</li>
+								<li>Knowledge Graph Construction from text (10 mins)</li>
+
+								<li>
+									Introduction to Natural & Technical Language Processing (20
+									mins)
+								</li>
+								<li>Questions (5 mins)</li>
+								<li>Break (10 mins)</li>
+							</ul>
+						</li>
+
+						<li>
+							<b>Building knowledge graphs from unstructured text I</b> (60
+							mins)
+							<ul>
+								<li>
+									Step 1: Text cleaning via Lexical Normalisation (10 mins)
+								</li>
+								<li>
+									Step 2: Extracting entities via Named Entity Recognition (30
+									mins)
+								</li>
+								<li>Questions (10 mins)</li>
+								<li>Break (10 mins)</li>
+							</ul>
+						</li>
+
+						<li>
+							<b>Building knowledge graphs from unstructured text II</b> (60
+							mins)
+							<ul>
+								<li>
+									Step 3: Extracting relations between entities via Relation
+									Extraction (20 mins)
+								</li>
+								<li>
+									Step 4: Putting everything together and building the knowledge
+									graph (10 mins)
+								</li>
+								<li>Step 5: Querying the knowledge graph in Neo4j (10 mins)</li>
+								<li>What next? (10 mins)</li>
+								<li>Questions (10 mins)</li>
 							</ul>
 						</li>
 					</ol>
@@ -133,34 +145,82 @@ class HomePage extends Component {
 					</table>*/}
 				</section>
 
-				<section id="what-to-bring">
-					<h2>What to Bring</h2>
+				<section id="venue">
+					<h2>Venue</h2>
 					<p>
-						Please bring your own laptop to the tutorial. For the code
-						walkthrough, please ensure Python 3.7+ is installed on your laptop,
-						as well as Jupyter Notebook. We will be providing this notebook
-						closer to the tutorial so you can install all of the required
-						packages prior to the tutorial.
+						The tutorial will be located in <b>Freshwater Bay Room</b>, Hyatt
+						Regency Perth, WA, Australia.
 					</p>
 					<p>
-						For the latter half of the code walkthrough you will need{" "}
-						<a href="https://neo4j.com/" target="_blank" rel="noreferrer">
-							Neo4j Desktop
-						</a>{" "}
-						installed to follow along. You may alternatively opt to use{" "}
+						It is also available online.&nbsp;
 						<a
-							href="https://neo4j.com/cloud/platform/aura-graph-database/"
+							href="https://teams.microsoft.com/l/meetup-join/19%3a743a496352e64f88bcdf990c1cf6cc30%40thread.tacv2/1669626676282?context=%7b%22Tid%22%3a%2205894af0-cb28-46d8-8716-74cdb46e2226%22%2c%22Oid%22%3a%22d22e2e28-2cc7-4070-936d-6867540335ac%22%7d"
 							target="_blank"
 							rel="noreferrer"
 						>
-							Neo4j Aura
+							Click here
+						</a>{" "}
+						to join the tutorial on Microsoft Teams on Monday 5 December 2022 at
+						9am AWST.
+					</p>
+				</section>
+
+				<section id="what-to-bring">
+					<h2>What to Bring</h2>
+					<p>
+						Please bring your own laptop to the tutorial. The majority of the
+						tutorial will be a Jupyter Notebook walkthrough that demonstrates
+						the process of building a knowledge graph from a sample dataset of
+						technical short text. To follow along, there are two options:
+					</p>
+
+					<ul>
+						<li>
+							<b>Local installation:</b> Please clone the{" "}
+							<a
+								href="https://github.com/nlp-tlp/ajcai-tutorial-prep"
+								rel="noreferrer"
+							>
+								GitHub repo
+							</a>
+							&nbsp;and follow the README file contained within. Note that you
+							will need to have{" "}
+							<a href="https://neo4j.com/" target="_blank" rel="noreferrer">
+								Neo4j Desktop
+							</a>{" "}
+							installed, but only for sections 8 and 9 - the rest will run
+							without Neo4j.
+						</li>
+						<li>
+							<b>Google Colab:</b> We have also hosted the notebook on{" "}
+							<a href="https://colab.research.google.com/drive/1lEyOblgud5gdWzK_riGurLnrSEz08Nfi?authuser=1#scrollTo=j2KaJkHkmVNu">
+								Google Colab
+							</a>
+							. You will not need to install anything this way, though you will
+							need a Google Account to be able to run the code (without a Google
+							account, you can only view it).
+						</li>
+					</ul>
+				</section>
+
+				<section id="materials">
+					<h2>Materials</h2>
+
+					<p>
+						All of the slides, the notebook, and other accompanying materials
+						are available on the{" "}
+						<a
+							href="https://github.com/nlp-tlp/ajcai-tutorial-prep"
+							rel="noreferrer"
+						>
+							GitHub repo
 						</a>
-						, a free Cloud-based Neo4j environment.
+						.
 					</p>
 				</section>
 
 				<section id="speakers">
-					<h2>Speakers</h2>
+					<h2>Speaker</h2>
 
 					<div className="flex-container flex-align-center profile">
 						<div className="flex-item">
@@ -225,7 +285,7 @@ class HomePage extends Component {
 						</div>
 					</div>
 
-					<div className="flex-container flex-align-center profile">
+					{/*					<div className="flex-container flex-align-center profile">
 						<div className="flex-item">
 							<img src={tyler} alt="Tyler Bikaun" className="profile-photo" />
 							<div className="profile-details">
@@ -281,16 +341,7 @@ class HomePage extends Component {
 								Health Management Society European Conference.
 							</p>
 						</div>
-					</div>
-				</section>
-
-				<section id="materials">
-					<h2>Materials</h2>
-
-					<p>
-						Materials will be released closer to the date of the tutorial. Stay
-						tuned!
-					</p>
+					</div>*/}
 				</section>
 
 				<section id="acknowledgment">
